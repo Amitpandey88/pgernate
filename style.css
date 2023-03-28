@@ -1,0 +1,103 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f1f1f1;
+}
+
+.container {
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 50%;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	color: #555;
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	width: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background-color: #f1f1f1;
+	color: #555;
+}
+
+input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+button {
+	margin-top: 20px;
+	background-color: #2ecc71;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #27ae60;
+}
+
+input[type="text"] {
+	margin-top: 10px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background-color: #f1f1f1;
+	color: #555;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+}
+
+
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.github-button:hover {
+  background-color: #555;
+}
+
+.github-button i {
+  margin-right: 10px;
+}
+
+.github-button span {
+  font-weight: bold;
+}
